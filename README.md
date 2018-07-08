@@ -13,7 +13,7 @@ For more information, see [Markdown](https://en.wikipedia.org/wiki/Markdown) in 
 
 Create a text file called namefile.md or create a new repository with tick into "Initialize this repository with a README":
 
-![create_reame_image](images/create_readme_file.png)
+<img src="images/create_readme_file.PNG" alt="nvidia_net" width="350" height="350"/>
 
 ## Table of contents
 
@@ -40,7 +40,7 @@ Create a text file called namefile.md or create a new repository with tick into 
 * [Tables](#tables)
 * [Ignoring Markdown formatting](#ignoring-markdown-formatting)
 
-### Headers
+## Headers
 To create a heading, add one to six `#` symbols before your heading text. The number of `#` you use will determine the size of the heading.
 ```
 # The largest heading
@@ -54,7 +54,7 @@ To create a heading, add one to six `#` symbols before your heading text. The nu
 >**. . .**
 >###### The smallest heading
 
-### Styling text
+## Styling text
 You can indicate emphasis with bold, italic,or both, or strikethrough text.
 
 Style | Syntax | Example | Output
@@ -63,8 +63,8 @@ Bold | `**text**` or `__text__` | `**This is bold text**` | **This is bold text*
 Italic | `*text*` or `_text_` | `*This text is italicized*` | *This text is italicized*
 Strikethrough | `~~text~~` | `~~This was mistaken text~~` | ~~This was mistaken text~~
 
-### Lists
-#### Unordered
+## Lists
+### Unordered
 You can make an unordered list by preceding one or more lines of text with `-` or `*`.
 ```
 * Item 1
@@ -74,13 +74,13 @@ You can make an unordered list by preceding one or more lines of text with `-` o
 ```
 _Output:_
 
->* Item 1
->* Item 2
->  * Item 2a
->  * Item 2b
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
 
 
-#### Ordered
+### Ordered
 To order your list, precede each line with a number.
 ```
 1. Item 1
@@ -91,14 +91,14 @@ To order your list, precede each line with a number.
 ```
 _Output:_
 
->1. Item 1
->2. Item 2
->3. Item 3
->   4. Item 3a
->   5. Item 3b
+1. Item 1
+2. Item 2
+3. Item 3
+   4. Item 3a
+   5. Item 3b
 
 
-#### Nested Lists
+### Nested Lists
 You can create a nested list by indenting one or more list items below another item.
 ```
 1. First list item
@@ -107,13 +107,13 @@ You can create a nested list by indenting one or more list items below another i
 ```
 _Output:_
 
->1. First list item
->   - First nested list item
->     - Second nested list item
+1. First list item
+   - First nested list item
+     - Second nested list item
 
 
-### Quoting
-#### Quoting text
+## Quoting
+### Quoting text
 You can quote text with a `>` like i use it to represent to output of code.
 ```
 Where are you from ?
@@ -124,7 +124,7 @@ _Output:_
 >Where are you from ?
 >> I come from VietNam. Nice to meet you.
 
-#### Quoting code
+### Quoting code
 You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted.
 ```
 Use `git status` to list all new or modified files that haven't yet been committed.
@@ -147,7 +147,7 @@ git add
 git commit
 ```
 
-### Links
+## Links
 Any URL (like http://www.github.com/) will be automatically converted into a clickable link.<br>You can create an inline link by wrapping link text in brackets `[ ]`, and then wrapping the URL in parentheses `( )`.
 ```
 This is [my github account](https://github.com/bmdung13) where I have all the open source projects that I have worked on.
@@ -155,19 +155,20 @@ This is [my github account](https://github.com/bmdung13) where I have all the op
 *Output:*
 >This is [my github account](https://github.com/bmdung13) where I have all the open source projects that I have worked on.
 
-#### Anchor links
+### Anchor links
 You can link directly to a section in a rendered file by hovering over the section heading to expose the link. Like the way you create a link above but instead of URL, it start with `#`,and add `-` characters between each word in the heading.
 
-First create a heading:
-##### This is so AWESOME
-<br>
-With heading `##### This is so AWESOME`, we can create a anchor link connecting with it by code:
+First create a heading `### This is so AWESOME`:
+>### This is so AWESOME
+
+So, we can create a anchor link connecting with it by code:
 ```
 [Click this if you want see something AWESOME](#This-is-so-AWESOME)
 ```
 *Output:*
 >[Click me if you want see something AWESOME](#This-is-so-AWESOME)
-#### Relative links
+
+### Relative links
 You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
 
 A relative link is a link that is relative to the current file. For example, if you have a README file in root of your repository, and you have another file in docs/CONTRIBUTING.md, the relative link to CONTRIBUTING.md in your README might look like this:
@@ -181,26 +182,26 @@ GitHub will automatically transform your relative link or image path based on wh
 
 Relative links are easier for users who clone your repository. Absolute links may not work in clones of your repository - we recommend using relative links to refer to other files within your repository.
 
-### Images
+## Images
 If you want to embed images, this is how you do it:
 
 `![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)`
 
 *Output:*
->![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+><img src="https://octodex.github.com/images/yaktocat.png" alt="vaktocat" width="350" height="350"/>
 
-#### GIFs
+### GIFs
 You can also insert GIFs:
 
 `![Gif of hulatocat](https://octodex.github.com/images/hula_loop_octodex03.gif)`
 
 *Output:*
->![Gif of hulatocat](https://octodex.github.com/images/hula_loop_octodex03.gif)
+><img src="https://octodex.github.com/images/hula_loop_octodex03.gif" alt="hulatocat" width="350" height="350"/>
 
 You can do the same with videos, easy right?<br>
 And you also can insert images, GIFs or videos in your own folder by using [relative links](#relative-links)
 
-#### Status images
+### Status images
 You can embed status images (also known as badges or icons) that show the status of your build into your README. See more here: [Embedding Status Images](https://docs.travis-ci.com/user/status-images/)
 ```
 [![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/travis-ci/travis-web)
@@ -225,7 +226,7 @@ To create a task list, preface list items with `[ ]`. To mark a task as complete
 
 For more information, see "[About task lists](https://help.github.com/articles/about-task-lists/)"
 
-### Mentioning people and teams
+## Mentioning people and teams
 Typing an `@` symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also mention [teams](https://help.github.com/articles/organizing-members-into-teams/) within an organization. People will also receive a notification if you edit a comment to mention their username or team name.
 ```
 @github/support What do you think about these updates?
@@ -233,7 +234,7 @@ Typing an `@` symbol, followed by a username, will notify that person to come an
 *Output:*
 >@github/support What do you think about these updates?
 
-### Emoji
+## Emoji
 You can add emoji to your writing by typing `:EMOJICODE:`. For a full list of available emoji and codes, check out [emoji-cheat-sheet.com](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 `Have a fun time with emoji :satisfied: :heart: :v:`
@@ -241,11 +242,11 @@ You can add emoji to your writing by typing `:EMOJICODE:`. For a full list of av
 *Output:*
 >Have a fun time with emoji :satisfied: :heart: :v:
 
-### Referencing issues, pull requests and SHA references
+## Referencing issues, pull requests and SHA references
 You can bring up a list of suggested issues and pull requests within the repository by typing `#`. Type the issue or pull request number or title to filter the list, and then press either tab or enter to complete the highlighted result.
 
 For more information, see "[Autolinked references and URLs](https://help.github.com/articles/autolinked-references-and-urls/)".
-### Paragraphs and line breaks
+## Paragraphs and line breaks
 You can create a new paragraph by leaving a blank line between lines of text or use tag `<br>`
 
 `Hit you with that <br> DDU-DU DDU-DU`
@@ -253,7 +254,7 @@ You can create a new paragraph by leaving a blank line between lines of text or 
 *Output:*
 >Hit you with that <br> DDU-DU DDU-DU
 
-### Tables
+## Tables
 You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
 ```
 First Header | Second Header
@@ -269,7 +270,7 @@ First Header | Second Header
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
-### Ignoring Markdown formatting
+## Ignoring Markdown formatting
 
 You can tell GitHub to ignore (or escape) Markdown formatting by using `\` before the Markdown character.
 
