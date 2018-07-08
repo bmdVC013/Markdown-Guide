@@ -209,7 +209,7 @@ You can embed status images (also known as badges or icons) that show the status
 
 *Output:*
 >[![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/travis-ci/travis-web)
-### Task lists
+## Task lists
 To create a task list, preface list items with `[ ]`. To mark a task as complete, use `[x]`.
 ```
 - [x] **Write** a _README_ file
