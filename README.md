@@ -3,7 +3,6 @@
 *Markdown for everyone* :+1: :punch:
 
 ## What is Markdown?
-
 [Markdown](https://en.wikipedia.org/wiki/Markdown) is a lightweight markup language with plain text formatting syntax, with the `.md` or `.markdown` extension. It is designed so that it can be converted to HTML and many other formats using a tool by the same name.
 
 Markdown is often used to format readme files like this file :smile:, for writing messages in online discussion forums, and to create rich text using a plain text editor.
@@ -12,33 +11,34 @@ For more information, see [Markdown](https://en.wikipedia.org/wiki/Markdown) in 
 
 ### Create a Markdown file
 
-Create a text file called namefile.md or create a new repository with a tick into "Initialize this repository with a README":
-![create_README_image](images/create_readme_file.png)
+Create a text file called namefile.md or create a new repository with tick into "Initialize this repository with a README":
+
+![create_reame_image](images/create_readme_file.png)
 
 ## Table of contents
 
-* [Headers](#Headers)
-* [Styling text](#Styling-text)
-* [Lists](#Lists)
-	* [Unordered](#Unordered)
-	* [Ordered](#Ordered)
-	* [Nested Lists](#Nested-Lists)
-* [Quoting](#Quoting)
-	* [Quoting text](#Quoting-text)
-	* [Quoting code](#Quoting-code)
-* [Links](#Links)
-	* [Anchor links](#Section-links)
-	* [Relative links](#Relative-links)
-* [Images](#Images)
-	* [GIFs](#GIFs)
-	* [Status images](#Status-images)
-* [Task lists](#Task-lists)
-* [Mentioning people and teams](#Mentioning-people-and-teams)
-* [Emoji](#Emoji)
-* [Referencing issues, pull requests and SHA references ](#Referencing-issues,-pull-requests-and-SHA-references)
-* [Paragraphs and line breaks](#Paragraphs-and-line-breaks)
-* [Tables](#Tables)
-* [Ignoring Markdown formatting](#Ignoring-Markdown-formatting)
+* [Headers](#headers)
+* [Styling text](#styling-text)
+* [Lists](#lists)
+	* [Unordered](#unordered)
+	* [Ordered](#ordered)
+	* [Nested Lists](#nested-lists)
+* [Quoting](#quoting)
+	* [Quoting text](#quoting-text)
+	* [Quoting code](#quoting-code)
+* [Links](#links)
+	* [Anchor links](#section-links)
+	* [Relative links](#relative-links)
+* [Images](#images)
+	* [GIFs](#gifs)
+	* [Status images](#status-images)
+* [Task lists](#task-lists)
+* [Mentioning people and teams](#mentioning-people-and-teams)
+* [Emoji](#emoji)
+* [Referencing issues, pull requests and SHA references ](#referencing-issues,-pull-requests-and-sha-references)
+* [Paragraphs and line breaks](#paragraphs-and-line-breaks)
+* [Tables](#tables)
+* [Ignoring Markdown formatting](#ignoring-markdown-formatting)
 
 ### Headers
 To create a heading, add one to six `#` symbols before your heading text. The number of `#` you use will determine the size of the heading.
@@ -75,9 +75,9 @@ You can make an unordered list by preceding one or more lines of text with `-` o
 _Output:_
 
 >* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
+>* Item 2
+>  * Item 2a
+>  * Item 2b
 
 
 #### Ordered
@@ -92,10 +92,10 @@ To order your list, precede each line with a number.
 _Output:_
 
 >1. Item 1
-2. Item 2
-3. Item 3
-   4. Item 3a
-   5. Item 3b
+>2. Item 2
+>3. Item 3
+>   4. Item 3a
+>   5. Item 3b
 
 
 #### Nested Lists
@@ -108,8 +108,8 @@ You can create a nested list by indenting one or more list items below another i
 _Output:_
 
 >1. First list item
-   - First nested list item
-     - Second nested list item
+>   - First nested list item
+>     - Second nested list item
 
 
 ### Quoting
@@ -141,7 +141,7 @@ git commit<br>
 \`\`\`
 
 _Output:_
->```
+```
 git status
 git add
 git commit
@@ -219,9 +219,9 @@ To create a task list, preface list items with `[ ]`. To mark a task as complete
 
 *Output:*
 >- [x] **Write** a _README_ file
-- [x] **Commit** my _README_
-- [ ] **Push** my _README_ to GitHub
-- [ ] **Share** my _README_ to the world
+>- [x] **Commit** my _README_
+>- [ ] **Push** my _README_ to GitHub
+>- [ ] **Share** my _README_ to the world
 
 For more information, see "[About task lists](https://help.github.com/articles/about-task-lists/)"
 
@@ -239,7 +239,6 @@ You can add emoji to your writing by typing `:EMOJICODE:`. For a full list of av
 `Have a fun time with emoji :satisfied: :heart: :v:`
 
 *Output:*
-
 >Have a fun time with emoji :satisfied: :heart: :v:
 
 ### Referencing issues, pull requests and SHA references
