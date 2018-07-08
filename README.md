@@ -11,9 +11,9 @@ For more information, see [Markdown](https://en.wikipedia.org/wiki/Markdown) in 
 
 ### Create a Markdown file
 
-Create a text file called namefile.md or create a new repository with tick into "Initialize this repository with a README":
+Create a text file called `filename.md` or create a new repository with tick into "Initialize this repository with a README":
 
-<img src="images/create_readme_file.PNG" alt="nvidia_net" width="350" height="350"/>
+<img src="images/create_readme_file.PNG" alt="nvidia_net" width="500" height="500"/>
 
 ## Table of contents
 
@@ -84,18 +84,18 @@ _Output:_
 To order your list, precede each line with a number.
 ```
 1. Item 1
-2. Item 2
-3. Item 3
-   4. Item 3a
-   5. Item 3b
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
 ```
 _Output:_
 
 1. Item 1
-2. Item 2
-3. Item 3
-   4. Item 3a
-   5. Item 3b
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
 
 
 ### Nested Lists
